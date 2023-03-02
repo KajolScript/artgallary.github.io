@@ -12,7 +12,11 @@
 <div class="slider" x-data="{start: true, end: false}">
   <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
     <div class="slider__item">
+<<<<<<< HEAD
       <img class="slider__image" src="img\3.jpg" alt="Image">
+=======
+      <img class="slider__image"img\3.jpg" alt="Image">
+>>>>>>> 5453e2793f7c052d35628f8113123f493fc2cbce
       <div class="slider__info">
         
       </div>
